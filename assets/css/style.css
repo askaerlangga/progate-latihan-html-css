@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    height: 80px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 35px;
+    padding: 20px 30px;
+}
+
+.header-menu li{
+    list-style: none;
+    float: left;
+    padding: 30px 20px;
+}
