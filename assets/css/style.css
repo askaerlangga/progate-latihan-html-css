@@ -1,25 +1,129 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
-header{
+header {
     background-color: #333;
     color: white;
     height: 80px;
 }
 
-.header-logo{
+.header-logo {
     float: left;
     font-size: 35px;
     padding: 20px 30px;
+    font-weight: bold;
 }
 
-.header-menu li{
+.header-menu li {
     list-style: none;
     float: left;
     padding: 30px 20px;
+}
+
+.main-header {
+    color: #333;
+    padding: 100px 80px;
+    text-align: center;
+    /* height: 500px; */
+}
+
+.main-header h1 {
+    font-size: 150px;
+    margin-bottom: 20px;
+}
+
+.main-header span {
+    color: gold;
+}
+
+.main-header h2 {
+    color: #999;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.main-header img {
+    height: 200px;
+}
+
+.about {
+    text-align: center;
+    background-color: #eee;
+    height: 350px;
+}
+
+.about h3 {
+    font-size: 25px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.about p {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.project {
+    text-align: center;
+    height: 500px;
+}
+
+.project h3 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.project-list {
+    display: flex;
+}
+
+.project-items {
+    flex: auto;
+    flex-wrap: wrap;
+    width: 33.33%;
+}
+
+.project-items img {
+    height: 200px;
+}
+
+.project-items p {
+    padding: 20px 0;
+}
+
+.contact-me {
+    text-align: center;
+    height: 600px;
+    background-color: #eee;
+}
+
+.contact-me h3 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+input,
+textarea {
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffdc73;
+    margin-top: 40px;
 }
